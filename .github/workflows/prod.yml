@@ -19,8 +19,8 @@ jobs:
           tags: |
             type=raw,value=${{ github.sha }}
 
-      - name: Setup Environment Variables
-        run: echo "${{ secrets.PROD_ENVIRONMENT_FILE }}" > ./environments/environment.prod.json
+      # - name: Setup Environment Variables
+      #   run: echo "${{ secrets.PROD_ENVIRONMENT_FILE }}" > ./environments/environment.prod.json
 
       - name: Set up Docker Buildx
         id: buildx

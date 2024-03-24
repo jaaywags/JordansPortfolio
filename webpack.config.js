@@ -43,11 +43,13 @@ module.exports = {
           'css-loader',
           // Compiles Sass to CSS
           'sass-loader',
+          'postcss-loader',
         ],
       },
       {
         test: /\.(css)$/,
-        use: ['style-loader', 'css-loader'],
+        include: path.resolve(__dirname, 'src'),
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
       {
         test: /\.(jpg|jpeg|png|webp|gif|mp3|svg)$/,
