@@ -8,7 +8,7 @@ export default [{
 }, {
   id: '2',
   name: 'Word Mountain',
-  description: 'Word Mountain is another cross platform mobile app I built in React Native. I had a phase a while back where I would like Wordl a lot. A lot of the apps out there though are riddled with ads and paywalls. So, the simplest solution obviously was to make my own version of Wordl. Hence, Word Mountain was born one night at 2am.\n\nTech: React Native',
+  description: 'Word Mountain is another cross platform mobile app I built in React Native. I had a phase a while back where I would play Wordl a lot. A lot of the apps out there though are riddled with ads and paywalls. So, the simplest solution obviously was to make my own version of Wordl. Hence, Word Mountain was born one night at 2am.\n\nTech: React Native',
   image: 'wordmountain.webp'
 }, {
   id: '3',
