@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-black text-white flex justify-center items-center p-5 gap-8">
       <p>JordansPortfolio © {date.getFullYear()}</p>
-      <a href='https://github.com/jaaywags/JordansPortfolio' target='_blank' className='underline'>This is an Open Source Project available on GitHub</a>
+      <a href='https://github.com/jaaywags/JordansPortfolio' target='_blank' className='underline'>This is an open source project available on GitHub</a>
     </div>
   );
 };
