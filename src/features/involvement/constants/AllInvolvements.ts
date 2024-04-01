@@ -8,6 +8,6 @@ export default [{
 }, {
   id: '2',
   name: 'Code Launch',
-  description: 'Code Launch is a giant start up competition that travels around the country. Once a year it comes to Houston. The event has 7 startups compete against each other where judges and attendees vote for their favorites. Each startup is given a 4-person hackathon team for 24 hours. The hackathon teams job is to build a prototype where the startup will demo on stage in front of thousands of people. I have participated in Code Launch for the past 3 years. One year, I was even team lead.',
+  description: 'Code Launch is a giant start up competition that travels around the country. Once a year it comes to Houston. The event has 7 startups compete against each other where judges and attendees vote for their favorites. Each startup is given a 4-person hackathon team for 24 hours. The hackathon teams job is to build a prototype where the startup will demo on stage in front of thousands of people. I have been on the Code Launch hackathon team for the past 3 years (2022-2024). One year, I was even team lead.',
   image: 'codelaunch.webp'
 }] as Project[];
