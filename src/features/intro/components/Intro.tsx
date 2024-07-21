@@ -1,6 +1,7 @@
 import React from 'react';
 import MeImg from '../assets/me.webp';
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react';
+import MediumIcon from '../assets/mediumIcon.svg';
 
 const Intro = () => {
   return (
@@ -16,6 +17,10 @@ const Intro = () => {
           <a href='https://www.linkedin.com/in/jordan-wagner-778739107/' target='_blank' className="flex flex-row gap-2 text-stone-100">
             <IconBrandLinkedin />
             <p>LinkedIn</p>
+          </a>
+          <a href='https://medium.com/@jwag' target='_blank' className="flex flex-row gap-2 text-stone-100 items-center">
+            <img className="h-[19px]" src={MediumIcon} />
+            <p>Medium</p>
           </a>
         </div>
       </div>
